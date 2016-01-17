@@ -1,0 +1,372 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+}
+/*-============================================================-*/
+/*-=======================Header area==========================-*/
+/*-============================================================-*/
+.header-area {
+    border-top: 5px solid #F55856;
+}
+span{
+    color: #F55856;
+}
+.header-area {
+    padding-top: 10px;
+}
+.header-area>.container>.row>.header-top>.header-top-left>li>a{
+    font-size: 15px;
+    color: darkgray;
+    font-weight: 500;
+    cursor: auto;
+}
+.header-area>.container>.row>.header-top>.header-top-left>li>a:hover{
+    color: darkgray;
+}
+a {
+    color: grey;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: #F55856;
+}
+
+.header-area>.container>.row>.header-top>.header-top-right>li>a{
+    font-size: 15px;
+    color: darkgray;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.header-area>.container>.row>.header-top>.header-top-right>li>a:hover{
+    color: #F55856;
+}
+/*-=======================Header-navbar==========================-*/
+.header-navbar{
+    background: #F5F6F1;
+    width: 100%;
+    height: 200px;
+}
+.header-navbar>.container>.row>.nav-logo>.logo{
+    padding:35px;
+}
+.navbar-default {
+    background-image:none;
+    background-repeat:none;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color:transparent;
+    border-color: transparent;
+}
+.navbar-default {
+
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+    
+}
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+.nav > li > a {
+    text-transform: uppercase;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #F55856;
+    background-color: transparent;
+}
+
+
+.nav>li>a>span{
+    padding-left: 13px;
+}
+
+.dropdown-menu > li > a {
+    padding: 10px 20px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color:#F55856;
+    background-color: #FCFBFB;
+}
+.dropdown-menu > li > a:hover {
+    background-color:transparent;
+    background-image: url("");
+}
+.dropdown-menu .divider {
+    overflow: visible;
+    margin: 31px 0px;
+}
+.dropdown-menu > li > a:frist-child{
+    margin-top: 5px;
+}
+/*-=======================-content-header==========================-*/
+.Content-header{
+    width: 100%;
+    height: 30px;
+     padding-top: 15px;
+}
+.Content-header>.container>.row>.left>p{
+    font-size: 16px;
+}
+.Content-header>.container>.row>.right>.menu-bottom>.nav>li>a{
+    font-size: 15px;
+    padding-left: 8px;
+    text-transform: capitalize;
+}
+.Content-header>.container>.row>.right>.menu-bottom>.nav>li>a>span{
+    padding-left: 10px;
+}
+
+/*-============================================================-*/
+/*-=======================content=============================-*/
+/*-===========================================================-*/
+.content{
+    margin-top: 35px;
+    width: 100%;
+    background: #F8F8F8;
+}
+.thumbnail {
+    padding: 0px;0px;
+    border: none;
+    border-radius: 0px;
+}
+
+.hovereffect{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(245,119,117,.8);
+    top: -100%;
+    overflow: hidden;
+    transition: 0s;
+}
+.hovereffect:hover .overlay{
+    top: 0;
+    cursor: pointer;
+}
+.overlay-icon{
+   position: absolute;
+   bottom: -100%;
+    left: 45%;        
+}
+.overlay-icon>i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    color: #FFF;
+    padding: 11px;
+    font-size: 27px;
+}
+.hovereffect:hover .overlay-icon{
+    bottom: 45%;
+    cursor: pointer;
+}
+
+.caption-text{
+    padding-left: 15px;
+    padding-bottom: 12px;
+}
+.caption-text h1{
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.caption-text h1:hover{
+    cursor: pointer;
+    color:#F55856; 
+}
+.caption-text p{
+    font-size: 19px;
+    font-family: justify;
+}
+.caption-text span{
+    font-size: 23px;
+}
+.caption-text span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #f55856;
+}
+
+/*-==========================pagination======================-*/
+.pagination > li > a{
+    color: #fff;
+    background-color: #9A9A9A;
+    border:none;
+    height: 41px;
+    padding: 12px;
+    margin-left: 4px;
+}
+.pagination > li:first-child > a{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 41px;
+    padding: 12px;
+    cursor:auto;
+}
+.pagination > li:first-child > a:hover{
+    background:#9A9A9A;
+    color: #fff;
+}
+.pagination > .active > a, .pagination > .active > a:hover {
+    background-color: #f55856;
+    border-color: transparent;
+    height: 41px;
+    padding: 12px;
+}
+.pagination > li > a:hover{
+    z-index: 1;
+    color: #fff;
+    background-color: #f55856;
+    border-color: transparent;
+}
+.pagination > li:last-child > a {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/*-============================Wordpress=====================-*/
+/*-============================jumbotron=====================-*/
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wordpress>.jumbotron>.container>.row>.details>h2{
+    font-size: 29px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wordpress>.jumbotron>.container>.row>.details>p{
+    font-size: 18px;
+    text-align: center;
+}
+.wordpress>.jumbotron>.container>.row>.details>p>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/*-============================================================-*/
+/*-=======================Footer top===========================-*/
+/*-============================================================-*/
+.footer-top{
+    background: #47403A; 
+    width: 100%;
+    height: 200px;
+    padding-top: 80px;
+    margin-top: -29px;
+}
+.footer-top>.container>.row>.footer-menu>.menu>.nav>li>a{
+    font-size: 13px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0px 11px;
+}
+.footer-top>.container>.row>.footer-menu>.menu{
+    margin-top: 0px;
+}
+.footer-top>.container>.row>.footer-menu>.menu>.nav>li>a:hover{
+    color:  #f55856;
+}
+.footer-top>.container>.row>.footer-menu>.menu>.nav>li>a>span{
+    padding-left: 14px;;
+}
+.footer-top>.container>.row>.footer-menu>p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 40px;
+    padding-left: 28px;
+}
+.arrow-icon{
+    
+}
+.arrow-icon>a>icon{
+    width: 50px;
+    height: 51px;
+    background: #000 none repeat scroll 0% 0%;
+    text-align: center;
+    padding-top: 18px;
+}
+.arrow-icon>a>icon:hover{
+    background: #CA524F;
+    color: #fff;
+}
+
+/*-============================================================-*/
+/*-=======================Footer Bottom========================-*/
+/*-============================================================-*/
+
+.footer-bottom{
+    background: #3B3532;
+    height: 60px auto;
+    padding: 8px;
+}
+.social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.facebook,
+.dribbble,
+.twitter,
+.mail,
+.pinterest {
+    background-image: url("../images/topSocialIcons.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    float: left;
+    transition: all ease .5s;
+}
+
+.facebook {
+    background-position: -90px -40px;
+}
+
+.facebook:hover {
+    background-position: -90px 0;
+}
+
+.dribbble {
+    background-position: -180px -40px;
+}
+
+.dribbble:hover {
+    background-position: -180px 0;
+}
+
+.twitter {
+    background-position: -135px -40px;
+}
+
+.twitter:hover {
+    background-position: -135px 0;
+}
+
+.mail {
+    background-position: 0 -40px;
+}
+
+.mail:hover {
+    background-position: 0 0;
+}
+
+.pinterest {
+    background-position: -45px -40px;
+}
+
+
+.pinterest:hover {
+    background-position: -45px 0;
+}
+.footer-bottom>.container>.row>.bottom-para>p{
+    color: #FFF;
+    font-size: 16px;
+}
+.footer-bottom>.container>.row>.bottom-para>p>a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
